@@ -102,7 +102,6 @@ public class Case_Success {
 	@Then("verify obss footer")
 	public void verify_obss_footer() {
 		WebElement element = DRIVER.findElement(By.linkText("KVKK"));
-		System.out.println(element.getText());
 	}
 
 	@AfterAll
